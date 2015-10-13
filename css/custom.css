@@ -1,0 +1,39 @@
+img.icon {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+h1 {
+  font-family: "Avenir Next";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Avenir Next";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+p {
+  font-family: "Avenir Next";
+  font-size: 18px;
+}
+
+#header {
+  margin: 0 auto;
+}
+
+#bio {
+  font-family: "Avenir Next";
+  font-size: 12px;
+}
