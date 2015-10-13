@@ -20,13 +20,17 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
           <center>
-            <h1><a href="/cs247-portfolio">Onkur Sen</a></h1>
-            <p id="bio">
-              I am a second-year Master’s student in computer science
-              at Stanford University. This is my portfolio.
-            </p>
+            <h1><a href="index.html">Onkur Sen</a></h1>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-12">
+                <p id="bio">
+                  I am a second-year Master’s student in computer science
+                  at Stanford University. This is my portfolio.
+                </p>
+              </div>
+            </div>
             <ul style="list-style-type:none;margin:0;padding:0;">
               <a href="mailto:onkursen@gmail.com" style="margin:0;">
                 <img class="icon" src="img/gmail.png">
@@ -46,21 +50,19 @@
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-3">
-            <img src="img/corner.png" class="img img-responsive">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+          <div class="col-md-3 col-sm-3">
+            <img src="img/yelp.png" class="img img-responsive">
           </div>
-          <div class="col-md-9">
-            <h2>Corner Detection Algorithms</h2>
-            <!-- <h3>Reimplementing Harris and Shi-Tomasi in Python/OpenCV</h3> -->
+          <div class="col-md-9 col-sm-9">
+            <h2>Road Trip Recommendations</h2>
             <p>
-              I re-implemented the Harris and Shi-Tomasi corner detection algorithms. This was done as part of a project for CS 231A (Computer Vision) at Stanford University.
-              <br>
-              <br>
-              The example on the left is taken from a photo by Ansel Adams. I also used a simple chessboard as a calibration example:
-              <br>
-              <br>
-              <img src="img/chessboard.png" class="img img-responsive">
+              Using the <a href="https://www.yelp.com/academic_dataset">Yelp Academic Dataset</a>,
+              I worked with Jocelyn Hickhox to implement an algorithm that provides
+              restaurant recommendations for someone on a road trip
+              given an origin, a destination, and various desired attributes.
+              This was done as part of a project for CS 221 (Artificial Intelligence) at
+              Stanford University.
             </p>
           </div>
         </div>
