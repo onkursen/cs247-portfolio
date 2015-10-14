@@ -5,27 +5,27 @@ img.icon {
 }
 
 h1 {
-  font-family: "Avenir Next";
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 40px;
 }
 
 h2 {
-  font-family: "Avenir Next";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 30px;
   margin-top: 0;
 }
 
 h3 {
-  font-family: "Avenir Next";
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
 }
 
 p {
-  font-family: "Avenir Next";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -38,6 +38,6 @@ a {
 }
 
 #bio {
-  font-family: "Avenir Next";
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
